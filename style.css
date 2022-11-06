@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+/* ------------------------------------------------------------ */
+ /* Google Container */
+.google-container {
+    width: auto;
+    height: 130px;
+}
+
+.google-container img {
+    padding-top: 10px;
+}
+/* ------------------------------------------------------------ */
+/* Search Container */
+.search-container {
+    background-color:lightgray;
+    width: auto;
+    height: 130px;
+    padding-top: 10px;
+}
+
+.searchBar {
+
+    width: 300px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.search-container p {
+
+    margin: 0;
+    margin-top: 20px;
+}
+/* -------------------------------------------------------------- */
+/* Card Container */
+.card-container {
+    width: auto;
+    height: 130px;
+    margin-top: 5px;
+    padding-left: 3px;
+}
+
+.card {
+    
+    float: left;
+    margin-left: 4px;
+    height: 125px;
+}
+.card.first {
+    width: 450px;
+    margin-right: 3px;
+    background-color:aquamarine ;
+}
+
+.card.first p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.card.second {
+    width: 320px;
+    margin: 0;
+    line-height: 7px;
+    background-color:darkturquoise;
+}
+
+.card.end {
+    width: 575px;
+    background-color: darkcyan;
+}
+
+.card.end p {
+    margin: 0;
+    padding-top: 5px;
+}
+
+/* ----------------------------------------------------- */
+/* Footer Container */
+.footer-container {
+    width: auto;
+    height: 50px;
+    margin-top: 5px;
+}
